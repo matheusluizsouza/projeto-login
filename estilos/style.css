@@ -40,6 +40,7 @@ section#Login {
     overflow: hidden;
 }
 
+
 section#Login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-cottonbro-studio-3584967.jpg);
