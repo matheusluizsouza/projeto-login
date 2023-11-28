@@ -40,7 +40,7 @@ section#Login {
     overflow: hidden;
 
     transition: width .3s, height .3s;
-    transition-timing-function: ease;
+    transition-timing-function: linear;
 }
 
 
