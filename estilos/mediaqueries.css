@@ -14,7 +14,7 @@ Large devices (laptops/desktops, 992px and up)
 Extra large devices (large laptops and desktops, 1200px and up)
 */
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -62,7 +62,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#Login {
         width: 1180px;
     }
