@@ -58,7 +58,61 @@ section#Login > div#formulario {
     padding: 10px;
 }
 
-section#Login > div#formulario > h1 {
+div#formulario > h1 {
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: .8em;
+    padding-bottom: 5px;
+}
+
+div.campo {
+    background-color: #5f2c82;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+div.campo > input {
+    background-color: #79e4e0;
+    width: 44vw;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+div#formulario > form > input {
+    display: block;
+    width: 50vw;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #49a09d;
+    color: white;
+    font-size: larger;
+    font-size: 1em;
+    box-sizing: border-box;
+    border-color: #49a09d;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+div#formulario > form > input:hover {
+    background-color: #306664;
+}
+
+div#formulario > form > a {
+    display: block;
+    width: 50vw;
+    padding: 8px;
+    color: #387976;
+    background-color: white;
+    border: #49a09d;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer; 
+}
+
+div#formulario > form > a:hover {
+    background-color: #79e4e0;
 }
